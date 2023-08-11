@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+*{
+    font-family: Poppins;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(peakpx.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* float: right; */
+    margin-right: 50px;
+}
+.desk1{
+    text-align: center;
+    width: 600px;
+    height: 410px;
+    background-color: #fff;
+    color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-repeat: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px black;
+    margin-right: 60px;
+    
+}
+.desk .logo1{
+    color: #000;
+}
+.desk1 h1{
+    color: #000;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+body h1{
+    color: #fff;
+    text-align: center;
+    
+}
+body .desk1 h3{
+    color: #fff;
+    text-align: left;
+}
+body .form-login{
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px black;
+}
+body .form-login h3{
+    text-align: center;
+}
+body .form-login input{
+    margin-bottom: 20px;
+    width: 400px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #E5E9F2;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+body .form-login p{
+    text-align: right;
+    margin-top: -8px;
+    margin-bottom: 20px;
+
+}
+body .form-login p a{
+    color: #999aa4;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+body .form-login p a:hover{
+    color: #999aa4;
+    font-size: 16px;
+    font-weight: 400;
+    /* text-decoration: underline; */
+}
+
+
+body .form-login .btn-login{
+    margin-top: 0px;
+    width: 100%;
+    border: 0;
+    height: 40px;
+    background-repeat: 50px;
+    background-color: #2447f9;
+    color: #fffffff7;
+    font-weight: 700;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.btn-login a{
+    text-decoration: none;
+    color: white;
+}
+body .form-login .btn-create{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    width: 100%;
+    border: 0;
+    height: 40px;
+    background-repeat: 50px;
+    background-color: #E5E9F2;
+    color: #000;
+    font-weight: 700;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-create a{
+    text-decoration: none;
+    color: #000;
+}
+.form-login .garis{
+    background-color: red;
+    color: red;
+    margin-top: 25px;
+}
+body .form-login .btn-daftar{
+    margin-top: 8px;
+    margin-bottom:18px;
+    width: 100%;
+    border: 0;
+    height: 40px;
+    /* background-repeat: 50px; */
+    background-color: #343649;
+    color: #fff;
+    padding-left: 35px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-daftar a{
+    text-decoration: none;
+    color: white;
+}
+body .form-login .icon-google{
+    /* overflow: hidden; */
+    width: 20px;
+    margin-left: 150px;
+    margin-top: -48px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+
+}
+body .desk1 .logo-desk{
+    size: 80px;
+    float: left;
+}
